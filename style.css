@@ -19,8 +19,6 @@ weights 400, 700;
     box-sizing: border-box;
     font-family: 'Overpass';
 }
-@media (max-width: 720px)
-{   
     body {
         background-color: var(--Very-Dark-Blue);
         display: flex;
@@ -130,7 +128,6 @@ weights 400, 700;
         font-size: var(--paragrafo-padrao);
         text-align: center;
     }
-}
 
 
 /* .attribution { font-size: 11px; text-align: center; }

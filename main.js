@@ -6,6 +6,7 @@ const nota5 = document.getElementById('nota5');
 const submitBnt = document.querySelector('.submit');
 var notaEscolhida;
 
+
 function resetaValores(){
     nota1.style.backgroundColor = '#323c48';
     nota1.style.color = 'hsl(217, 12%, 63%)';
