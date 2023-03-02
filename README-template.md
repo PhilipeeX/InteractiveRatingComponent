@@ -1,26 +1,26 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Essa é a solução de [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). 
 
-## Table of contents
+## Tabela de Conteúdo
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+- [Visão geral](#overview)
+  - [O desafio](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Minha trajetória](#my-process)
+  - [Contruído com...](#built-with)
+  - [O que eu aprendi](#what-i-learned)
+  - [Desenvolvimento continuado](#continued-development)
+  - [Fontes úteis](#useful-resources)
+- [Sobre o autor](#author)
+- [Reconhecimentos](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
 
-### The challenge
+## Visão geral
+
+### O desafio
 
 Users should be able to:
 

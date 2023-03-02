@@ -32,14 +32,15 @@ weights 400, 700;
         background-color: var(--Dark-Blue);
         margin: 1rem 4rem;
         border-radius: 1rem;
-        flex-basis: 80vh;
+        max-width: 400px;
+        min-width: 300px;
     }
     .card {
-        margin: 2rem;
+        margin: 1.5rem 2rem;
         display: flex;
         flex-direction: column;
-        gap: 3rem;
-        height: 70vh;
+        gap: 2rem;
+        height: 100%;
     }
     .estrela {
         background-color: #323c48;
@@ -52,6 +53,7 @@ weights 400, 700;
     }
     .titulo {
         color: var(--White);
+        margin-bottom: 1rem;
     }
     .info {
         color: var(--Light-Grey);
@@ -60,6 +62,7 @@ weights 400, 700;
     .notas {
         display: flex;
         justify-content: space-between;
+        gap: .7rem;
     }
     .nota {
         background-color: #323c48;
@@ -71,13 +74,64 @@ weights 400, 700;
         justify-content: center;
         color: var(--Light-Grey);
     }
-    .btn-submit {
+    .nota:hover {
+        cursor: pointer;
+        background-color: var(--Orange);
+        color: var(--White);
+    }
+    .submit {
+        text-decoration: none;
+        text-align: center;
         border: 1px solid black;
         border-radius: 2rem;
         background-color: var(--Orange);
         color: var(--White);
         padding: 1rem;
     }
+    .submit:hover {
+        cursor: pointer;
+        background-color: var(--White);
+        color: var(--Orange);
+    }
+    /* PÁGINA DE AGRADECIMENTO */
+
+    .card-agradecimento {
+        margin: 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        flex-basis: 300px;
+    }
+    .card-agradecimento img {
+        flex-basis: auto;
+        max-width: 50%;
+    }
+    .nota-agradecimento {
+        padding: .5rem;
+        background-color: #323c48;
+        border-radius: 1.2rem;
+    }
+    .nota-agradecimento p {
+        font-size: .8rem;
+        color: var(--Orange);
+    }
+    .texto-agradecimento {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titulo-agradecimento {
+        color: var(--White);
+        margin-bottom: 1rem;
+    }
+    .info-agradecimento {
+        color: var(--Light-Grey);
+        font-size: var(--paragrafo-padrao);
+        text-align: center;
+    }
 }
+
+
 /* .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); } */
