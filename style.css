@@ -24,7 +24,7 @@ weights 400, 700;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        min-height: 100vh;
     }
     .container {
         background-color: var(--Dark-Blue);
@@ -70,11 +70,11 @@ weights 400, 700;
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
         color: var(--Light-Grey);
     }
     .nota:hover {
-        cursor: pointer;
-        background-color: var(--Orange);
+        background-color: var(--Light-Grey);
         color: var(--White);
     }
     .submit {

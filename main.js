@@ -20,35 +20,37 @@ function resetaValores(){
     nota5.style.color = 'hsl(217, 12%, 63%)';
 }
 nota1.addEventListener('click', function(){
+    
     resetaValores()
     notaEscolhida = 1;
-    nota1.style.backgroundColor = 'hsl(217, 12%, 63%)';
+    nota1.style.backgroundColor = 'hsl(25, 97%, 53%)';
     nota1.style.color = 'white';
 })
 nota2.addEventListener('click', function(){
     resetaValores()
     notaEscolhida = 2;
-    nota2.style.backgroundColor = 'hsl(217, 12%, 63%)';
+    nota2.style.backgroundColor = 'hsl(25, 97%, 53%)';
     nota2.style.color = 'white';
 })
 nota3.addEventListener('click', function(){
     resetaValores()
     notaEscolhida = 3;
-    nota3.style.backgroundColor = 'hsl(217, 12%, 63%)';
+    nota3.style.backgroundColor = 'hsl(25, 97%, 53%)';
     nota3.style.color = 'white';
 })
 nota4.addEventListener('click', function(){
     resetaValores()
     notaEscolhida = 4;
-    nota4.style.backgroundColor = 'hsl(217, 12%, 63%)';
+    nota4.style.backgroundColor = 'hsl(25, 97%, 53%)';
     nota4.style.color = 'white';
 })
 nota5.addEventListener('click', function(){
     resetaValores()
     notaEscolhida = 5;
-    nota5.style.backgroundColor = 'hsl(217, 12%, 63%)';
+    nota5.style.backgroundColor = 'hsl(25, 97%, 53%)';
     nota5.style.color = 'white';
 })
+
 submitBnt.addEventListener('mousedown', function(){
     if (typeof notaEscolhida == 'undefined'){
         alert('Faça uma avaliação de 1 à 5 para continuar.');
